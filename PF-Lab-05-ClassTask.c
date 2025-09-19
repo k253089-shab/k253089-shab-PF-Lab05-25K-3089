@@ -8,7 +8,7 @@ int main() {
 	scanf("%d", &device_type);
 	
 	
-	if(device_type>0 && device_type<3){
+	if(device_type>0 && device_type<4){
 		switch(device_type){
 		case 1:
 			printf("\nEnter Symptom Code: \n10 for Won't turn on\n11 for Overheating\n12 for Slow performance\n");
@@ -58,3 +58,4 @@ int main() {
 }
 return 0;
 }
+
